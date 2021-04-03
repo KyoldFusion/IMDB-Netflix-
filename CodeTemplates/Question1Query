@@ -1,5 +1,8 @@
-spark.sql("Select DISTINCT nconst, primaryname, birthyear, deathyear,
- CASE WHEN birthyear IS NOT NULL and deathyear IS NOT NULL then CAST(deathyear - birthyear AS decimal(3,0))
-  ELSE COALESCE((birthyear - deathyear), 2021-birthyear) END  Age,
-   CASE WHEN deathyear IS NULL AND birthyear IS NOT NULL THEN 'alive' WHEN deathyear IS NOT NULL THEN 'deceased' ELSE 'unknown'  END LivingStatus
-    from names where (primaryprofession LIKE '%actor%' OR primaryprofession LIKE '%actress%') AND birthyear IS NOT NULL").show(20)
+#Code for Question 1
+
+start_time = time.time()
+spark.sql("Select DISTINCT nconst, primaryname, birthyear, deathyear, 
+CASE WHEN birthyear IS NOT NULL and deathyear IS NOT NULL then CAST(deathyear - birthyear AS decimal(3,0)) ELSE COALESCE((birthyear - deathyear), 2021-birthyear) END  Age,
+CASE WHEN deathyear IS NULL AND birthyear IS NOT NULL THEN 'alive' WHEN deathyear IS NOT NULL THEN 'deceased' WHEN birthyear IS NULL AND deathyear is NULL THEN 'unknown'  END LivingStatus
+from pnames where (primaryprofession LIKE '%actor%' OR primaryprofession LIKE '%actress%') AND birthyear IS NOT NULL").show()
+print("---- %s Seconds ---" % (time.time() - start_time))

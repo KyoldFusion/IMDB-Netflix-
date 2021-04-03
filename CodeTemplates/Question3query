@@ -1,0 +1,4 @@
+start_time = time.time()
+spark.sql("Select n.primaryname, b.primarytitle, n.knownFor, n.primaryprofession
+from names n join basics b ON n.knownFor = b.tconst WHERE n.primaryprofession LIKE '%producer%' ").show()
+print('--- %s Seconds ---' % (time.time() - start_time))
