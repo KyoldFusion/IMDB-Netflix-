@@ -1,8 +1,4 @@
-# IMDBProject2
-
-
-Netflix IMDB Pyspark Parquet Project
-----
+# Stranger Things Presents: IMDBProject2
 
 
 <h2 align="center"> GamePlan: </h2>
