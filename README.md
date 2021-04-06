@@ -6,7 +6,7 @@ Netflix IMDB Pyspark Parquet Project
 
 
 Schedule:
-a. Friday (April 2nd 2021): Pema, Mike, Bright meet @ 5:00 PM -> 6:00PM || Pema,Mike, Felix @ 6:00PM -> 9:00PM
+a. Friday (April 2nd 2021): Pema, Mike, Bright meet @ 5:00 PM -> 9:00PM Felix join @ 6:00
 ---
 Goals:
                       Work on creating blueprint for moving project forward on designated days and schedule, review coding fundamentals before beginning.
