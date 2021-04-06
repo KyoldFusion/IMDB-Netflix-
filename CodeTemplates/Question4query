@@ -1,0 +1,3 @@
+start_time = time.time()
+spark.sql("Select DISTINCT p.characters, p.nconst from pprincipals p join pnames n ON p.nconst = n.nconst WHERE characters is NOT null").show()
+print('--- %s Seconds ---' % (time.time() - start_time))
