@@ -1,0 +1,3 @@
+start_time = time.time()
+spark.sql("Select n.primaryname, b.primarytitle, n.knownFor, n.primaryprofession from pnames n join bbasics b ON n.knownFor = b.tconst WHERE n.primaryprofession = 'producer' ").show()
+print('--- %s Seconds ---' % (time.time() - start_time))
