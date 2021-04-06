@@ -6,6 +6,7 @@ Netflix IMDB Pyspark Parquet Project
 
 
 <h2 align="center"> GamePlan: </h2>
+
 ---
 Friday (April 2nd 2021): Pema, Mike, Bright meet @ 5:00 PM -> 9:00PM Felix at 6:00
 ---
