@@ -9,10 +9,10 @@ Schedule:
 ---
 Friday (April 2nd 2021): Pema, Mike, Bright meet @ 5:00 PM -> 9:00PM Felix join @ 6:00
 ---
-Goals:
+                                                                          Goals:
                       Work on creating blueprint for moving project forward on designated days and schedule, review coding fundamentals before beginning.
-                      Mike/Felix: Review Question #1 and check for combining tables together | create spark framework template for code testing
-                      Bright/Pema/Chey: Review Questions 2/3/4 QEP model 
+                          Mike/Felix: Review Question #1 and check for combining tables together | create spark framework template for code testing
+                                                  Bright/Pema/Chey: Review Questions 2/3/4 QEP model 
 
 
 Saturday (April 3rd 2021): Bright,Pema,Mike,Felix 10:00AM -> 12:00
